@@ -1,0 +1,58 @@
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .header {
+    min-height: 65vh;
+  }
+  #collapsibleNavbar {
+    background-color: black;
+  }
+  .header .header-text h1 {
+    font-size: 24px !important;
+  }
+  .header .header-text p {
+    font-size: 14px;
+  }
+  .header .header-text button {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: white;
+    border: 1px solid white;
+  }
+  .ptb_100 {
+    padding: 50px 0;
+  }
+  .navbar-toggler {
+    border: 1px solid white;
+  }
+  .testimonial .card .icon > img {
+    margin-left: 0;
+    width: 85px;
+    height: 85px;
+  }
+  .testimonial .card .content > .lead {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .call-to-action .container {
+    height: 45vh;
+    width: 91%;
+  }
+  .call-to-action .call-text h1 {
+    font-size: 25px;
+  }
+  .sub-header {
+    height: 40vh;
+  }
+  .sub-header h1 {
+    font-size: 22px;
+  }
+  .comment-box {
+    margin-bottom: 20px;
+  }
+  iframe {
+    width: 100%;
+  }
+  .contact-details .row-1 {
+    margin-bottom: 30px;
+  }
+}
